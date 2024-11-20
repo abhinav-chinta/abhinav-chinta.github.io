@@ -7,6 +7,8 @@ redirect_from:
   - /about.html
 ---
 
+## About Me
+
 Hi there! I'm Abhinav, a senior at [UIUC](https://illinois.edu/) majoring in Computer Science. My research focuses on preference learning and reasoning in large language models. I am fortunate to be advised by [Prof. Dilek Hakkani-Tür](https://siebelschool.illinois.edu/about/people/all-faculty/dilek) and [Prof. Heng Ji](https://siebelschool.illinois.edu/about/people/faculty/hengji). 
 
 Currently, I am exploring scientific reasoning in LLMs at [ConvAI Lab](https://uiuc-conversational-ai-lab.github.io/) and working as a research intern at [Sandia National Labs](https://www.sandia.gov/).
