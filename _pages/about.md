@@ -20,7 +20,7 @@ Selected Publications
 **\* indicates equal contribution**
 
 - [**Unsupervised Human Preference Learning**](https://preference-agents.github.io/) \\
-  [[Paper](https://arxiv.org/abs/2410.03731)][[Slides](#)][[Poster](#)]  
+  [[Paper](https://arxiv.org/abs/2410.03731)][[Slides](#)][[Poster](files/pref_agents_poster.pdf)]  
   Sumuk Shashidhar, **Abhinav Chinta**, Vaibhav Sahai, and Dilek Hakkani-Tür. \\
   In Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing: **EMNLP 2024**, United States. Association for Computational Linguistics.
 
@@ -66,10 +66,10 @@ Education
 
 Talks
 ------
-- Generative Agents: Interactive Simulacra of Human Behavior [[Slides](#)]
-- Self-Refine: Iterative Refinement with Self-Feedback [[Slides](#)]
+- Generative Agents: Interactive Simulacra of Human Behavior [[Slides](files/generative_agents_talk.pdf)]
+- Self-Refine: Iterative Refinement with Self-Feedback [[Slides](files/self-refine_talk.pdf)]
 
 CV
 ------
-Please find my CV [here](#).
+Please find my CV [here](files/Abhinav_chinta_2024.pdf).
 
