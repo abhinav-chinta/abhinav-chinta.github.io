@@ -1,6 +1,7 @@
 ---
 permalink: /
-title: null
+title: ""
+excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
@@ -14,8 +15,8 @@ Currently, I am exploring scientific reasoning in LLMs at [ConvAI Lab](https://u
 Feel free to reach out to me at achinta3[at]illinois[dot]edu.
 
 
-## Publications
-
+Selected Publications
+------
 **\* indicates equal contribution**
 
 - [**Unsupervised Human Preference Learning**](https://preference-agents.github.io/) \\
@@ -34,8 +35,9 @@ Feel free to reach out to me at achinta3[at]illinois[dot]edu.
 - **Token Efficient Deep Conversational Reasoning With ConvoDAGs** \\
   Sumuk Shashidhar\*, **Abhinav Chinta\***, Vaibhav Sahai, Faraz Siddiqui, Shivansh Patel, Kevin Chen-Chuan Chang. Under Review.
 
-## Experience
 
+Experience
+------
 - [Sandia National Laboratories](https://www.sandia.gov/), **05/2024 - Present**
   - **Position**: Research Intern
   - **Focus**: Retrieval Augmented Generation, Large Corpus Analysis
@@ -56,18 +58,18 @@ Feel free to reach out to me at achinta3[at]illinois[dot]edu.
   - **Position**: SEE Trading Fellow
   - **Focus**: Trading Algorithms
 
-## Education
-
+Education
+------
 - [University of Illinois at Urbana-Champaign](https://illinois.edu/), **08/2021 - Present**
   - B.S. in Computer Science
   - James Scholar
 
-## Talks
-
+Talks
+------
 - Generative Agents: Interactive Simulacra of Human Behavior [[Slides](#)]
 - Self-Refine: Iterative Refinement with Self-Feedback [[Slides](#)]
 
-## CV
-
+CV
+------
 Please find my CV [here](#).
 
