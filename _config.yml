@@ -12,7 +12,7 @@ title                    : "Abhinav Chinta"
 title_separator          : "-"
 name                     : &name "Abhinav Chinta"
 description              : &description "personal description"
-url                      : https://abhinav-chinta.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+url                      :  # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "abhinav-chinta/abhinav-chinta.github.io"
 
@@ -21,7 +21,7 @@ repository               : "abhinav-chinta/abhinav-chinta.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "abhinav_profile.jpg"
+  avatar           : "abhinav_profile_25.jpg"
   name             : "Abhinav Chinta"
   pronouns         : # example: "she/her"  
   bio              : # placeholder

@@ -8,16 +8,21 @@ redirect_from:
   - /about.html
 ---
 
-Hi there! I'm Abhinav, a senior at [UIUC](https://illinois.edu/) majoring in Computer Science. My research focuses on preference learning and reasoning in large language models. I am fortunate to be advised by [Prof. Dilek Hakkani-Tür](https://siebelschool.illinois.edu/about/people/all-faculty/dilek) and [Prof. Heng Ji](https://siebelschool.illinois.edu/about/people/faculty/hengji). 
+Hi there! I'm Abhinav, an incoming Master's student at Stanford. My research focuses on preference learning and reasoning in large language models. I am fortunate to be advised by [Prof. Dilek Hakkani-Tür](https://siebelschool.illinois.edu/about/people/all-faculty/dilek) and [Prof. Heng Ji](https://siebelschool.illinois.edu/about/people/faculty/hengji). 
 
 Currently, I am exploring scientific reasoning in LLMs at [ConvAI Lab](https://uiuc-conversational-ai-lab.github.io/) and working as a research intern at [Sandia National Labs](https://www.sandia.gov/).
 
-Feel free to reach out to me at achinta3[at]illinois[dot]edu.
+Feel free to reach out to me at achinta[at]stanford[dot]edu.
 
 
 Selected Publications
 ------
 **\* indicates equal contribution**
+
+- [**Premise-Augmented Reasoning Chains Improve Error Identification in Math reasoning with LLMs**](https://abhinavchinta.com/parc/) \\
+  [[Paper](https://arxiv.org/abs/2502.02362)][[Poster](images/parc_poster.png)][[Dataset](https://huggingface.co/PARC-DATASETS)]  
+  Sagnik Mukherjee\*, **Abhinav Chinta\***, Takyoung Kim, Tarun Anoop Sharma, Dilek Hakkani Tur. \\
+  In Proceedings of the 42nd International Conference on Machine Learning (**ICML 2025**), Vancouver, Canada. PMLR 267, 2025.
 
 - [**Unsupervised Human Preference Learning**](https://preference-agents.github.io/) \\
   [[Paper](https://arxiv.org/abs/2410.03731)][[Slides](#)][[Poster](files/pref_agents_poster.pdf)]  
@@ -60,9 +65,13 @@ Experience
 
 Education
 ------
-- [University of Illinois at Urbana-Champaign](https://illinois.edu/), **08/2021 - Present**
+- [Stanford University](https://www.stanford.edu/), **09/2025 - Present** 
+  - Master's in Computer Science
+
+- [University of Illinois at Urbana-Champaign](https://illinois.edu/), **08/2021 - 05/2025**
   - B.S. in Computer Science
   - James Scholar
+  - GPA: 3.95/4.00
 
 Talks
 ------
@@ -71,5 +80,5 @@ Talks
 
 CV
 ------
-Please find my CV [here](files/Abhinav_chinta_2024.pdf).
+Please find my CV [here](files/Abhinav_chinta_cv_25.pdf).
 
