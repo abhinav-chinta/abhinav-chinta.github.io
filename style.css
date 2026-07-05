@@ -1,0 +1,269 @@
+:root {
+  --bg: #fbfbfa;
+  --fg: #1c1c1b;
+  --muted: #6f6e69;
+  --line: #e6e4dd;
+  --underline: #c9c7bf;
+  color-scheme: light;
+}
+
+:root[data-theme="dark"] {
+  --bg: #141414;
+  --fg: #e8e6e1;
+  --muted: #8f8d86;
+  --line: #2b2b29;
+  --underline: #4a4a46;
+  color-scheme: dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #141414;
+    --fg: #e8e6e1;
+    --muted: #8f8d86;
+    --line: #2b2b29;
+    --underline: #4a4a46;
+    color-scheme: dark;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 42rem;
+  padding: 2.5rem 1.5rem 3rem;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.65;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: var(--underline);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
+a:hover {
+  text-decoration-color: var(--fg);
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1.5rem;
+}
+
+.theme-toggle {
+  background: none;
+  border: none;
+  padding: 0.25rem;
+  font-size: 1.15rem;
+  line-height: 1;
+  color: var(--muted);
+  cursor: pointer;
+}
+
+.theme-toggle:hover {
+  color: var(--fg);
+}
+
+h1 {
+  margin: 0 0 1rem;
+  font-size: 1.4rem;
+  font-weight: 650;
+  letter-spacing: -0.01em;
+}
+
+h2 {
+  margin: 3rem 0 1.25rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--line);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+p {
+  margin: 0 0 1rem;
+}
+
+.hero {
+  display: flex;
+  gap: 2.25rem;
+  align-items: flex-start;
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.portrait {
+  width: 9.5rem;
+  height: 9.5rem;
+  object-fit: cover;
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+
+.contact {
+  margin-top: 1.25rem;
+  color: var(--muted);
+}
+
+.contact span,
+.contact a {
+  margin-right: 0.35rem;
+}
+
+.contact a:not(:last-child)::after,
+.contact span::after {
+  content: "·";
+  margin-left: 0.55rem;
+  color: var(--muted);
+  text-decoration: none;
+  display: inline-block;
+}
+
+.news {
+  display: grid;
+  grid-template-columns: 6.5rem 1fr;
+  row-gap: 0.55rem;
+  margin: 0;
+}
+
+.news dt {
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+
+.news dd {
+  margin: 0;
+}
+
+.pub + .pub {
+  margin-top: 1.9rem;
+}
+
+.pub h3 {
+  margin: 0 0 0.25rem;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.45;
+}
+
+.pub .authors {
+  margin: 0 0 0.15rem;
+  font-size: 0.9375rem;
+  color: var(--muted);
+}
+
+.pub .authors strong {
+  color: var(--fg);
+  font-weight: 600;
+}
+
+.pub .venue {
+  margin: 0;
+  font-size: 0.9375rem;
+  color: var(--muted);
+}
+
+.pub .venue span {
+  color: var(--fg);
+  font-weight: 550;
+}
+
+.pub-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+  margin: 0.6rem 0 0;
+}
+
+.pub-links a {
+  font-size: 0.8125rem;
+  padding: 0.1rem 0.65rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.pub-links a:hover {
+  color: var(--fg);
+  border-color: var(--muted);
+}
+
+.note {
+  margin-top: 1.75rem;
+  font-size: 0.8125rem;
+  color: var(--muted);
+}
+
+.rows {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.rows li {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.15rem 1.5rem;
+  padding: 0.4rem 0;
+}
+
+.dates {
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+footer {
+  margin-top: 4rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--line);
+  font-size: 0.875rem;
+  color: var(--muted);
+}
+
+footer p {
+  margin: 0;
+}
+
+@media (max-width: 620px) {
+  body {
+    padding-top: 1.5rem;
+  }
+
+  .hero {
+    flex-direction: column-reverse;
+    gap: 1.5rem;
+  }
+
+  .portrait {
+    width: 7rem;
+    height: 7rem;
+  }
+
+  .news {
+    grid-template-columns: 5.5rem 1fr;
+  }
+}
