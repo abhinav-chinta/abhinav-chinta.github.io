@@ -121,17 +121,20 @@ p {
 }
 
 .contact {
-  margin-top: 1.25rem;
+  margin: 1.25rem 0 0.2rem;
   color: var(--muted);
 }
 
-.contact span,
-.contact a {
+.contact-links {
+  margin: 0;
+  color: var(--muted);
+}
+
+.contact-links a {
   margin-right: 0.35rem;
 }
 
-.contact a:not(:last-child)::after,
-.contact span::after {
+.contact-links a:not(:last-child)::after {
   content: "·";
   margin-left: 0.55rem;
   color: var(--muted);
